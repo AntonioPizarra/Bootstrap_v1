@@ -1,0 +1,140 @@
+/***********************************************/
+
+/**************fonts***************/
+@font-face {   
+    font-family: titulosecciones;
+    src: url(../font/Anton.ttf);
+}
+@font-face {   
+    font-family: textonormal;
+    src: url(../font/RobotoCondensed-Bold.ttf);
+}
+
+body {
+    background-color: #000040; /* Color de fondo para toda la página */
+}
+
+@media (max-width: 991px) {
+    .navbar-toggler {
+      color: white !important;
+      border-color: white !important;
+    }
+  }
+  
+
+  @media (max-width: 1000px) {
+    .img-grande {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 1001px) {
+    .img-pequena {
+      display: none;
+    }
+  }
+  
+
+
+
+
+/**************************sizing******************/
+.w-35{
+    width: 35%;
+}
+.w-10{
+    width: 10%;
+}
+.w-80{
+    width: 80%;
+}
+.mb-8{margin-bottom: 8em;}
+
+
+/**********************colors **************************/
+@media (max-width: 768px) {
+    .navbar-toggler {
+        order: -1;
+    }
+    .navbar-toggler-icon {
+        color: white;
+    }
+}
+
+.text-custom,
+.text-custom p,
+.titulo-custom {
+    color: #000040;
+}
+
+.border-custom {
+    border-color: #000040;
+}
+
+.bg-custom {
+    background-color: #000040 !important;
+}
+
+.bg-custom2 {
+    background-color: #0315C7;
+    color: white;
+}
+
+.bg-custom2 p,
+.bg-custom2 a {
+    color: white;
+}
+
+.bg-custom .nav-link {
+    color: white !important;
+}
+
+
+.accordion-item:not(.accordion-item-active) .accordion-button {
+    background-color: #000040;
+    color: white;
+}
+
+.card:hover{
+    box-shadow: 3px 3px 10px lightgray;
+
+}
+.text-azul{
+    color: #00008B;
+}
+.bg-white{
+    background-color: #ffffff;
+}
+.color-text{
+    color:#FFFFFF ;
+}
+.carousel-caption {
+    background-color: rgba(128, 128, 128, 0.506);
+
+}
+#trigger {
+    cursor: pointer;
+}
+#trigger:hover{
+    opacity: 0.75;
+}
+
+/**************************hero*************************/
+#hero{
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-position: center;
+}
+/*****************************font*********************************/
+.titulo{
+    font-family: titulosecciones;
+}
+.text-normal{
+    font-family: textonormal;
+    color: white;
+}
+/*************************TEXTOADICIONAL****************************************/
+.additional-text {
+    display: none;
+}
+/************************CENTRAR ACCORDION ***************************************/
